@@ -4,21 +4,21 @@ import '../css/NavBar.css';
 
 const NavBar = () => {
   return (
-    <div id="nav-bar">
+    <div id='nav-bar'>
         <Router>
-        <div className="left">
-            <Link className="nav-link left" to="/">
+        <div className='left'>
+            <Link className='nav-link left' to='/'>
             Bang NGUYEN
             </Link>
         </div>
-        <div className="right">
-            <Link className="nav-link" to="/">
+        <div className='right'>
+            <Link className='nav-link' to='/'>
             About
             </Link>
-            <Link className="nav-link" to="/">
+            <Link className='nav-link' to='#projects-list'>
             Projects
             </Link>
-            <Link className="nav-link" to="/">
+            <Link className='nav-link' to='/'>
             Contacts
             </Link>
         </div>
