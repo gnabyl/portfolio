@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
+#profile-intro {
+    display: flex;
+    justify-content: space-between;
+    height: 35rem;
+}
+
+
 #intro {
-    margin-top: 60px;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    max-width: 520px;
+    gap: 1rem;
+    width: 50%;
+    max-width: 32rem;
 }
+
 #intro-title {
     color: #FDC435;
     font-weight: bold;
@@ -18,29 +27,29 @@
 #intro-body {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2rem;
     height: 100%;
 }
 
 #intro-headline {
     color: #828282;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 #intro-buttons {
     display: flex;
     width: 100%;
-    gap: 12px;
+    gap: 1rem;
 }
 
 #intro-buttons button {
     cursor: pointer;
-    border-radius: 8px;
-    width: 115px;
-    height: 43px;
+    border-radius: .7rem;
+    width: 7rem;
+    height: 3rem;
     border: none;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 2rem;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -54,6 +63,23 @@
 }
 
 #intro h1 {
-    font-size: 64px;
-    line-height: 76px;
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+#profile-image {
+    height: 100%;
+    width: 50%;
+    background-color: #FDC435;
+    background-image: url("../assets/me.png");
+    mask-image: url("../assets/yellow-bg.png");
+    mask-position: center;
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    transform: translateY(-2.5rem);
+    z-index: -1;
+    mask-type: luminance;
 }
