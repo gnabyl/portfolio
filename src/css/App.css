@@ -28,14 +28,14 @@ header {
 }
 
 h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-weight: bold;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: bold;
 }
 
 button {
-    outline: none;
-    font-family: 'Roboto', sans-serif;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
 }
 button:hover {
-    transition: 100ms ease-in-out;
+  transition: 100ms ease-in-out;
 }

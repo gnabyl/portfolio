@@ -1,17 +1,17 @@
 #nav-bar {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 #nav-bar .right {
-    display: flex;
-    justify-content: space-around;
-    min-width: 18rem;
+  display: flex;
+  justify-content: space-around;
+  min-width: 18rem;
 }
 .nav-link {
-    position: relative;
-    text-decoration: none;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }

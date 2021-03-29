@@ -1,17 +1,17 @@
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5rem 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 0 5rem;
 }
 
 #social-links a {
-    padding: 0 1rem 0;
-    font-size: 3rem;
-    color: black;
+  padding: 0 1rem 0;
+  font-size: 3rem;
+  color: black;
 }
 footer span {
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
 }
