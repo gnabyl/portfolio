@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    transition-duration: 300ms;
 }
 
 body {
@@ -22,7 +23,7 @@ header {
 .underline {
     width: 100px;
     margin: .5rem auto;
-    outline: 3px solid #FDC435;
+    outline: .2rem solid #FDC435;
 }
 
 h1 {
@@ -33,4 +34,7 @@ h1 {
 button {
     outline: none;
     font-family: 'Roboto', sans-serif;
+}
+button:hover {
+    transition: 100ms ease-in-out;
 }

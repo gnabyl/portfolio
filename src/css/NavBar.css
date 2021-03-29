@@ -6,12 +6,12 @@
 #nav-bar .right {
     display: flex;
     justify-content: space-around;
-    min-width: 300px;
+    min-width: 18rem;
 }
 .nav-link {
     position: relative;
     text-decoration: none;
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
