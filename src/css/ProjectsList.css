@@ -19,7 +19,7 @@
   margin-top: 4rem;
   height: 30rem;
   overflow: hidden;
-  filter: drop-shadow(0px 6px 64px rgba(112, 144, 176, 0.1));
+  filter: drop-shadow(0px 6px 16px rgba(112, 144, 176, .2));
 }
 .project .left {
   width: 50%;
@@ -31,6 +31,15 @@
   width: 80%;
   margin: auto;
 }
+
+.project .left .content ul {
+  list-style: square;
+  margin-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .project-buttons {
   display: flex;
   flex-direction: row;
