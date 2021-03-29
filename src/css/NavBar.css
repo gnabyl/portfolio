@@ -7,4 +7,6 @@
 .nav-link {
     text-decoration: none;
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }

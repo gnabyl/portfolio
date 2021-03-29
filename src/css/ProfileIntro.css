@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+#intro {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 520px;
+}
+#intro-title {
+    color: #FDC435;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+}
+
+#intro-body {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 100%;
+}
+
+#intro-headline {
+    color: #828282;
+    font-size: 24px;
+}
+#intro-buttons {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+}
+
+#intro-buttons button {
+    cursor: pointer;
+    border-radius: 8px;
+    width: 115px;
+    height: 43px;
+    border: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#intro-buttons button:hover {
+    color: white;
+    background-color: black!important;
+}
+
+#intro-buttons button:nth-child(odd) {
+    background-color: #FDC435;
+}
+
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+}
