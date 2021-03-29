@@ -8,23 +8,22 @@
 }
 
 body {
-    background-color: #F9FAFF;
+  background-color: #F9FAFF;
 }
 
 header {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
 .container {
-    margin: auto;
-    padding: 1rem 10% 0;
+  padding-top: 1rem;
 }
 
 .underline {
-    width: 100px;
-    margin: .5rem auto;
-    outline: .2rem solid #FDC435;
+  width: 100px;
+  margin: .5rem auto;
+  outline: .2rem solid #FDC435;
 }
 
 h1 {

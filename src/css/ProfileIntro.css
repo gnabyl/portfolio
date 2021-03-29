@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   height: 35rem;
+  overflow: visible;
 }
 
 
@@ -12,6 +13,7 @@
   gap: 1rem;
   width: 50%;
   max-width: 32rem;
+  padding-left: 10%;
 }
 
 #intro-title {
