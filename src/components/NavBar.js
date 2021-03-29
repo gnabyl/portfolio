@@ -5,20 +5,24 @@ import '../css/NavBar.css';
 
 const NavBar = () => {
     return (
-        <div className="nav-bar">
+        <div id="nav-bar">
             <Router>
-                <Link className='nav-link' to='/'>
-                Home
-                </Link>
-                <Link className='nav-link' to='/'>
-                About
-                </Link>
-                <Link className='nav-link' to='/'>
-                Projects
-                </Link>
-                <Link className='nav-link' to='/'>
-                Contacts
-                </Link>
+                <div className="left">
+                    <Link className='nav-link left' to='/'>
+                    Bang NGUYEN
+                    </Link>
+                </div>
+                <div className="right">
+                    <Link className='nav-link' to='/'>
+                    About
+                    </Link>
+                    <Link className='nav-link' to='/'>
+                    Projects
+                    </Link>
+                    <Link className='nav-link' to='/'>
+                    Contacts
+                    </Link>
+                </div>
             </Router>
         </div>
     );

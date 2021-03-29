@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from './components/NavBar';
-import Project from './components/Project';
-import NameTag from './components/NameTag';
+import ProjectsList from './components/ProjectsList';
 import ProfileIntro from './components/ProfileIntro';
 
 import './css/App.css';
@@ -12,13 +11,11 @@ const App = () => {
     return (
         <div className="container">
             <header>
-                <NameTag />
-                {/* <LanguageSelector /> */}
                 <NavBar />
             </header>
             <main>
                 <ProfileIntro />
-                <Project />
+                <ProjectsList />
             </main>
             <footer>
 
