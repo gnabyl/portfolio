@@ -9,7 +9,7 @@ const ProfileIntro = () => (
         <h1>
           Hello,
           <br />
-          call me Bang
+          it&apos;s Bang
         </h1>
         <span id='intro-headline'>
           I do fullstack web development and I love playing video games
@@ -20,7 +20,6 @@ const ProfileIntro = () => (
         </div>
       </div>
     </div>
-    <div id='profile-image' />
   </div>
 );
 

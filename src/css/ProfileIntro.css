@@ -71,20 +71,3 @@
   font-size: 4rem;
   line-height: 5rem;
 }
-
-#profile-image {
-  height: 100%;
-  width: 50%;
-  background-color: #FDC435;
-  background-image: url("../assets/me.png");
-  mask-image: url("../assets/yellow-bg.png");
-  mask-position: center;
-  mask-size: 100% 100%;
-  mask-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  transform: translateY(-2.5rem);
-  z-index: -1;
-  mask-type: luminance;
-}
