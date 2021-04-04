@@ -19,7 +19,7 @@
 #intro-title {
   color: #FDC435;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-family: 'Nunito', sans-serif;
   text-transform: uppercase;
 }
@@ -37,8 +37,9 @@
 }
 #intro-buttons {
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
   gap: 1rem;
+  width: 100%;
 }
 
 #intro-buttons button {
@@ -70,4 +71,27 @@
 #intro h1 {
   font-size: 4rem;
   line-height: 5rem;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 1279px) {
+  #intro {
+    width: 90%;
+    padding-left: 5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #intro h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  #intro-title {
+    font-size: 1rem;
+  }
+  #intro-body {
+    gap: 1rem;
+  }
+  #intro-headline {
+    font-size: 1.2rem;
+  }
 }
