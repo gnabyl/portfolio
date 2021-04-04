@@ -50,7 +50,7 @@ const Project = ({ name, desc, gith, prod, img }) => (
 );
 Project.propTypes = {
   name: PropTypes.string,
-  desc: PropTypes.string,
+  desc: PropTypes.array,
   gith: PropTypes.string,
   prod: PropTypes.string,
   img: PropTypes.string,

@@ -37,5 +37,5 @@ button {
   font-family: 'Roboto', sans-serif;
 }
 button:hover {
-  transition: 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
