@@ -1,7 +1,7 @@
 #profile-intro {
   display: flex;
   justify-content: space-between;
-  height: 35rem;
+  height: fit-content;
   overflow: visible;
 }
 

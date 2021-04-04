@@ -1,7 +1,6 @@
 #projects-list {
   width: 60%;
-  margin: auto;
-  margin-top: 5rem;
+  margin: 5rem auto;
 }
 #projects-list h1 {
   font-size: 3rem;
