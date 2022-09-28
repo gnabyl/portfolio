@@ -7,7 +7,7 @@ const listProjects = [
     name: 'URL Shortener',
     desc: ['A website capable of shortening user\'s link.', 'Random background images of cute dogs.'],
     gith: 'https://github.com/bangjdev/url-shortener/',
-    prod: 'https://ters.ml/',
+    prod: 'https://linker.cf/',
     img:  'https://images-eu.ssl-images-amazon.com/images/I/510sFVU23DL.png',
   },
   {
@@ -18,6 +18,12 @@ const listProjects = [
     gith: 'https://github.com/online-judger/',
     prod: 'https://codegang.herokuapp.com/',
     img:  'https://static.data.gouv.fr/avatars/2015-02-26/970e34fe85d14c1688a5c93cb933c190/True_Icone.png',
+  },
+  {
+    name: 'Discord Music Bot',
+    desc: ['Streams music to a voice channel.'],
+    gith: 'https://github.com/bangjdev/sneaky-bot',
+    img:  'https://cdn.discordapp.com/app-icons/465393760025575424/8c238f82eaeb1d97ed0dd780b24eb176.png?size=512',
   },
   {
     name: 'Facebook Videos Downloader',
