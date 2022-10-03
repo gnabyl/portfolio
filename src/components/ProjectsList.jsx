@@ -33,6 +33,14 @@ const listProjects = [
     gith: 'https://github.com/bangjdev/FBVideosDownloader',
     img:  'https://play-lh.googleusercontent.com/qY-Wq8dboplly-p1VWPuiLsHXTlihKtKHYlBCYAFIAjeZmR6WVPKjm1hjOUSu6SzzHm9',
   },
+  {
+    name: 'The Guiding Light Game',
+    desc: ['A small puzzle-platformer game. ',
+           'where the player is exploring a dark cave and needs to bounce a light beam all the way to the end.'],
+    gith: 'https://github.com/bangjdev/FBVideosDownloader',
+    prod: 'https://treekanicko.itch.io/the-guiding-light-weekly-game-jam-144',
+    img:  'https://img.itch.zone/aW1nLzMyNTg3NjMucG5n/original/URP7Nb.png',
+  },
 ];
 
 const Project = ({ name, desc, gith, prod, img }) => (
